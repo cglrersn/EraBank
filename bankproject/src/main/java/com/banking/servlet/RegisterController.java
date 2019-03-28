@@ -24,7 +24,13 @@ public class RegisterController extends HttpServlet {
 		int money=Integer.parseInt(request.getParameter("money"));
 		String password=request.getParameter("password");
 		String passwordagain=request.getParameter("passwordagain");
-		if(password.equals(passwordagain)) {
+		if(id<0) {
+			String registeriderror="ENTER A POSITIVE NUMBER AS ID!";
+			request.setAttribute("registeriderror", registeriderror);
+			RequestDispatcher rd=request.getRequestDispatcher("Register.jsp");
+			rd.forward(request, response);
+		}
+		else if(password.equals(passwordagain) && id!=00000) {
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
 				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/banking?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","root","");
@@ -53,6 +59,12 @@ public class RegisterController extends HttpServlet {
 				e.printStackTrace();
 			}
 			
+		}
+		else if(id==00000) {
+			String registeriderror="ENTER A POSITIVE NUMBER AS ID!";
+			request.setAttribute("registeriderror", registeriderror);
+			RequestDispatcher rd=request.getRequestDispatcher("Register.jsp");
+			rd.forward(request, response);
 		}
 		else {
 			String passworderror="PASSWORDS DO NOT MATCH!";

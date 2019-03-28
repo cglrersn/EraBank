@@ -60,6 +60,11 @@
         			String a1=(String)request.getAttribute("sameiderror");
         			out.println(a1);
         		}
+        		else if(request.getAttribute("registeriderror")!=null){
+        			String a1=(String)request.getAttribute("registeriderror");
+        			out.println(a1);
+        		}
+        		
         	%>
       		<form action="RegisterController">
 				<pre>Id             :<input type="number" name="id" maxlength="10" id="id"><br></pre>
