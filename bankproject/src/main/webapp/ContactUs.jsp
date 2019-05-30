@@ -35,15 +35,6 @@
 			<img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" width="30" height="25" /></a>
 			<a href="https://www.linkedin.com/in/%C3%A7a%C4%9Flar-ersin-568119172/" >
 			<img src="http://www.northsydneyinnovation.org/wp-content/uploads/2018/07/LinkedIn-Logo.png" height="25" width="25" > </a>
-        	<h3>HALIL IBRAHIM KIRLI</h3>
-        	e-mail:t.halil@hotmail.com<br>
-        	Social Media:
-        	<a href="https://twitter.com/CglrErsin" >
-        	<img src="https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-articleLarge-v4.jpg" width="30" height="25" /></a>
-			<a href="https://www.instagram.com/cglrersn/?hl=tr" >
-			<img src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg" width="30" height="25" /></a>
-			<a href="https://www.linkedin.com/in/%C3%A7a%C4%9Flar-ersin-568119172/" >
-			<img src="http://www.northsydneyinnovation.org/wp-content/uploads/2018/07/LinkedIn-Logo.png" height="25" width="25" > </a>
         </td>
       </tr>
     </table>	
