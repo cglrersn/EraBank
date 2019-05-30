@@ -25,7 +25,7 @@
 	<table id="dt" border="1">
       <tr>
         <td>
-        	<h3>OUR CO-FOUNDERS</h3>
+        	<h3>OUR CO-FOUNDER</h3>
         	<h3>CAGLAR ERSIN</h3>
         	e-mail:caglarersino@outlook.com<br>
         	Social Media:
